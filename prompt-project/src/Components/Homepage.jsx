@@ -54,7 +54,7 @@ Post: [postContent]`;
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "X-goog-api-key": "AIzaSyBa4iW0k_Nnb9BEqBnD84bFyC6fD9U6avE"
+            "X-goog-api-key": "YOUR_API_KEY"
           },
           body: JSON.stringify({
             contents: [
@@ -135,5 +135,6 @@ Post: [postContent]`;
     </>
   );
 };
+
 
 export default Homepage;
